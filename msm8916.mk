@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2017-2018 The OS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -154,7 +154,6 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libtinyxml2 \
     memtrack.msm8916 \
-    vendor.lineage.livedisplay@2.0-service.samsung-qcom
 
 # DRM
 PRODUCT_PACKAGES += \
