@@ -20,8 +20,7 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
@@ -156,10 +155,6 @@ PRODUCT_PACKAGES += \
     libtinyxml2 \
     memtrack.msm8916 \
     vendor.lineage.livedisplay@2.0-service.samsung-qcom
-
-# Doze
-PRODUCT_PACKAGES += \
-	SamsungDoze
 
 # DRM
 PRODUCT_PACKAGES += \
