@@ -395,8 +395,6 @@ PRODUCT_PACKAGES += \
     wcnss_service \
     wificond \
     wpa_supplicant
-
-# Include vendor
-$(call inherit-product, vendor/samsung/msm8916-common/msm8916-common-vendor.mk)
+    
 # Inherit from qcom common
 $(call inherit-product-if-exists, device/samsung/qcom-common/qcom-common.mk)
