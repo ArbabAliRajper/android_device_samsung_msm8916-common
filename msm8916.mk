@@ -396,5 +396,7 @@ PRODUCT_PACKAGES += \
     wificond \
     wpa_supplicant
     
-# Inherit from qcom common
-$(call inherit-product-if-exists, device/samsung/qcom-common/qcom-common.mk)
+# Inherit from vendor
+$(call inherit-product, vendor/samsung/j5xnlte/j5xnlte-vendor.mk)
+$(call inherit-product, vendor/samsung/j5x-common/j5x-common-vendor.mk)
+$(call inherit-product, vendor/samsung/msm8916-common/msm8916-common-vendor.mk)
